@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="icon" href="./images/neon-guitar.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+      integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div class="title-container">
+        <img
+          id="header-img"
+          class="header__image"
+          src="./images/neon-guitar.png"
+          alt="guitar drowing"
+          title="guitar drowing"
+        />
+        <h3 class="header__title">premium guitars</h3>
+      </div>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">features</a>
+        <a class="nav-link" href="#how">how it works</a>
+        <a class="nav-link" href="#pricing">pricing</a>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="heading">
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <form action="">
+          <input type="email" id="email" placeholder="Enter your email address" class="email-input" />
+          <input type="submit" id="submit" value="GET STARTED" class="submit-input" />
+        </form>
+      </section>
+      <section id="features" class="features">
+        <div>
+          <img src="" alt="" />
+          <h2 class="feature-title">premium materials</h2>
+          <p class="features__content"> 
+            Our guitars use the best types of woods with good tonal qualities ans good sustain. You’ll be well on your
+            way to finding the right guitar for you.
+          </p>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <h2 class="feature-title">fast shipping</h2>
+          <p class="features__content">
+            We make sure you receive your guitar as soon as we have finished making it. We also provide free returns if
+            you are not satisfied.
+          </p>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <h2 class="feature-title">quality assurance</h2>
+          <p class="features__content">
+            For every purchase you make, we will ensure there are no damages or faults and we will check and test the
+            pitch of your instrument.
+          </p>
+        </div>
+      </section>
+      <section id="how" class="how">
+        <iframe class="video" 
+        src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
+        </iframe>
+        </video>
+      </section>
+      <section id="pricing" class="pricing">
+        <div class="pricing__card">
+          <h3 class="pricing__card--title">spanish guitar</h3>
+          <span class="pricing__card--price">$600</span>
+          <ul class="pricing__card--list">
+            <li>rosewood fretboard</li>
+            <li>red cedar body</li>
+            <li>top quality tuning pegs</li>
+            <li>nylon strings</li>
+          </ul>
+          <button class="pricing__card--button">select</button>
+        </div>
+        <div class="pricing__card"> 
+          <h3 class="pricing__card--title">acoustic guitar</h3>
+          <span class="pricing__card--price">$900</span>
+          <ul class="pricing__card--list">
+            <li>ebony fretboard</li>
+            <li>spruce body</li>
+            <li>sound-board amplification</li>
+            <li>steel strings</li>
+          </ul>
+          <button class="pricing__card--button">select</button>
+        </div>
+        <div class="pricing__card">
+          <h3 class="pricing__card--title">electric guitar</h3>
+          <span class="pricing__card--price">$1200</span>
+          <ul class="pricing__card--list">
+            <li>high-quality pickups</li>
+            <li>mahogany neck</li>
+            <li>bound ebony fingerboard</li>
+            <li>basswood body</li>
+          </ul>
+          <button class="pricing__card--button">select</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="footer__list">
+        <li class="footer__list--element">privacy</li>
+        <li class="footer__list--element">terms</li>
+        <li class="footer__list--element">contact</li>
+      </ul>
+      <p class="footer__copy">copyright 2021, premium guitars</p>
+    </footer>
+  </body>
+</html>
