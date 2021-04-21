@@ -40,35 +40,41 @@
     <main class="main">
       <section class="heading">
         <h2>Handcrafted, home-made masterpieces</h2>
-        <form action="">
-          <input type="email" id="email" placeholder="Enter your email address" class="email-input" />
-          <input type="submit" id="submit" value="GET STARTED" class="submit-input" />
+        <form action="https://www.freecodecamp.com/email-submit">
+          <input type="email" id="email" placeholder="Enter your email address" class="email-input" required/>
+          <button type="submit" id="submit" class="submit-input">get started</button>
         </form>
       </section>
       <section id="features" class="features">
-        <div>
-          <img src="" alt="" />
-          <h2 class="feature-title">premium materials</h2>
-          <p class="features__content"> 
-            Our guitars use the best types of woods with good tonal qualities ans good sustain. You’ll be well on your
-            way to finding the right guitar for you.
-          </p>
+        <div class="features__container">
+          <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+          <div class="feature__content">
+            <h2 class="feature__content--title">premium materials</h2>
+            <p class="feature__content--text"> 
+              Our guitars use the best types of woods with good tonal qualities ans good sustain. You’ll be well on your
+              way to finding the right guitar for you.
+            </p>
+          </div>
         </div>
-        <div>
-          <img src="" alt="" />
-          <h2 class="feature-title">fast shipping</h2>
-          <p class="features__content">
+        <div class="features__container">
+          <i class="fa fa-truck fa-2x" aria-hidden="true"></i>
+          <div class="feature__content">
+            <h2 class="feature__content--title">fast shipping</h2>
+            <p class="feature__content--text">
             We make sure you receive your guitar as soon as we have finished making it. We also provide free returns if
             you are not satisfied.
-          </p>
+            </p>
         </div>
-        <div>
-          <img src="" alt="" />
-          <h2 class="feature-title">quality assurance</h2>
-          <p class="features__content">
+        </div>
+        <div class="features__container">
+          <i class="fa fa-battery-full fa-lg" aria-hidden="true"></i>
+          <div class="feature__content">
+            <h2 class="feature__content--title">quality assurance</h2>
+            <p class="feature__content--text">
             For every purchase you make, we will ensure there are no damages or faults and we will check and test the
             pitch of your instrument.
-          </p>
+            </p>
+        </div>
         </div>
       </section>
       <section id="how" class="how">

@@ -15,6 +15,7 @@
 @media all and (min-width: 600px) {
   .header {
     display: flex;
+    flex-direction: column;
   }
 }
 
@@ -97,14 +98,48 @@
   border-radius: 3px;
   border: 1px gray solid;
   padding-top: 3px;
+  text-transform: uppercase;
 }
 #features {
   scroll-margin-top: 160px;
 }
-.feature-title {
+.features__container {
+  margin-top: 20px;
+}
+@media all and (min-width: 600px) {
+  .features__container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.fa {
+  display: flex;
+}
+@media all and (max-width: 599px) {
+  .fa {
+    display: none;
+  }
+}
+
+@media all and (min-width: 600px) {
+  .fa {
+    padding: 20px 20px;
+  }
+}
+
+@media all and (min-width: 600px) {
+  .feature__content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
+  }
+}
+
+.feature__content--title {
   text-transform: capitalize;
 }
-.features__content {
+.feature__content--text {
   font-size: 18px;
 }
 #how {
