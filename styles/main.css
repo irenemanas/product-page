@@ -26,10 +26,20 @@
   justify-content: center;
   padding-right: 20px;
 }
+@media all and (min-width: 600px) {
+  .title-container {
+    margin-left: 10px;
+  }
+}
 .header__image {
   width: 70px;
   height: 70px;
   padding-top: 10px;
+}
+@media all and (min-width: 600px) {
+  .header__image {
+    margin-top: 5px;
+  }
 }
 .header__title {
   color: lightblue;
@@ -38,6 +48,11 @@
   text-transform: capitalize;
   padding-top: 20px;
   padding-right: 10px;
+}
+@media all and (min-width: 600px) {
+  .header__title {
+    width: 300px;
+  }
 }
 #nav-bar {
   font-family: "Open Sans", sans-serif;
@@ -62,7 +77,7 @@
 @media all and (min-width: 768px) {
   .nav-link {
     margin-right: 20px;
-    padding: 10px;
+    padding: 8px;
   }
 }
 .nav-link:hover {
